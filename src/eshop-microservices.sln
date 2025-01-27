@@ -7,11 +7,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{67
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catelog", "Catelog", "{542BBA29-5FE9-4F33-BF45-38DA0748302F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catelog.API", "Services\Catelog\Catelog.API\Catelog.API.csproj", "{EA135B03-6A9F-48A5-89DF-6BA14326C1DB}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA135B03-6A9F-48A5-89DF-6BA14326C1DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA135B03-6A9F-48A5-89DF-6BA14326C1DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA135B03-6A9F-48A5-89DF-6BA14326C1DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA135B03-6A9F-48A5-89DF-6BA14326C1DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{542BBA29-5FE9-4F33-BF45-38DA0748302F} = {6792B678-DB1A-453A-9597-594BDF312175}
+		{EA135B03-6A9F-48A5-89DF-6BA14326C1DB} = {542BBA29-5FE9-4F33-BF45-38DA0748302F}
 	EndGlobalSection
 EndGlobal
